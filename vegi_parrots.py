@@ -10,7 +10,7 @@ import numpy as np
 classes = ["小松菜","豆苗","にんじん","ピーマン","アボカド","玉ねぎ","にら"]
 image_size = 50
 
-UPLOAD_FOLDER = "up"
+UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
